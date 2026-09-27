@@ -1,0 +1,119 @@
+                           *SALES PERFORMANCE ANALYSIS USING MICROSOFT EXCEL*
+
+#Project Objective:
+
+To clean, analyze, and visualize sales data using "Microsoft Excel 2019" and develop an interactive dashboard that provides meaningful sales insights.
+_________________________________________________________________________________________________________________
+
+#PROJECT WORKFLOW:
+
+RAW DATA
+   ↓
+DATA CLEANING & PREPARATION
+   ↓
+LOOKUP & DATA ENRICHMENT
+   ↓
+SALES ANALYSIS
+   ↓
+INTERACTIVE DASHBOARD
+   ↓
+BUSINESS INSIGHTS
+__________________________________________________________________________________________________________________
+
+1. RAW DATA:
+* Imported and preserved the original sales dataset.
+* Maintained the raw data separately as a reference and backup.
+* No modifications were made to the original dataset.
+
+2. CLEAN DATA:
+* Created a working copy of the raw dataset.
+* Removed duplicate records and checked the data for completeness.
+* Created calculated columns:
+  *Sales = Quantity × Unit Price
+  *Discount Amount
+  *Final Sales
+* Prepared the data for further analysis.
+
+3. LOOKUP & DATA ENRICHMENT:
+Created three separate lookup tables:
+
+| Lookup Table           | Purpose                                              |
+| ---------------------- | ---------------------------------------------------- |
+|   Product → Category   | Identifies the category of each product              |
+|   Product → Manager    | Identifies the manager responsible for each product  |
+|   Category → Manager   | Identifies the manager associated with each category |
+
+* Used VLOOKUP to retrieve relevant information.
+* Used IFERROR to handle unavailable lookup values.
+* Enriched the Clean Data with additional Category and Product Manager information.
+
+4. SALES ANALYSIS:
+Created an "Analysis" sheet containing key performance indicators and detailed sales analysis.
+Key KPIs:
+* Total Sales
+* Total Quantity
+* Total Orders
+* Average Sales
+* Highest Sale
+
+PivotTable Analysis:
+* Sales by Region
+* Sales by Product
+* Sales by Category
+* Sales by Payment Method
+* Monthly Sales
+
+5. INTERACTIVE DASHBOARD:
+Created a professional dashboard to present the analyzed information visually.
+Dashboard Components:
+* Sales KPI cards
+* Monthly Sales Trend
+* Sales by Region
+* Top Products
+* Product Manager Slicer
+* Date Timeline Slicer
+The slicers allow users to interactively filter the dashboard by "Product Manager" and "Date".
+_________________________________________________________________________________________________________________
+
+*FINAL PROJECT STRUCTURE:
+
+                    SALES DATA
+                         ↓
+                  ┌─────────────┐
+                  │  RAW DATA   │
+                  └──────┬──────┘
+                         ↓
+                  ┌─────────────┐
+                  │ CLEAN DATA  │
+                  │ Sales       │
+                  │ Discounts   │
+                  │ Final Sales │
+                  └──────┬──────┘
+                         ↓
+                  ┌─────────────┐
+                  │   LOOKUP    │
+                  │ Product →   │
+                  │ Category    │
+                  │ Product →   │
+                  │ Manager     │
+                  │ Category →  │
+                  │ Manager     │
+                  └──────┬──────┘
+                         ↓
+                  ┌─────────────┐
+                  │  ANALYSIS   │
+                  │ KPIs +      │
+                  │ PivotTables │
+                  └──────┬──────┘
+                         ↓
+                  ┌─────────────┐
+                  │  DASHBOARD  │
+                  │ Charts +    │
+                  │ Slicers +   │
+                  │ Timeline    │
+                  └─────────────┘
+
+_____________________________________________________________________________________________________________________
+
+Tools & Skills Demonstrated:
+Microsoft Excel 2019 • Data Cleaning • Data Preparation • VLOOKUP • IFERROR • Excel Formulas • PivotTables • PivotCharts  • Slicers • Date Timeline • Data Visualization • Dashboard Development • Sales Analysis**
